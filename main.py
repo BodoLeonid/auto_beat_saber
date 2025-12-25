@@ -21,7 +21,6 @@ except selenium.common.exceptions.SessionNotCreatedException:
     )
 
 
-
 for filename in os.listdir(songs_folder):
     if filename.endswith(".mp3"):
         file_path = os.path.join(songs_folder, filename)
