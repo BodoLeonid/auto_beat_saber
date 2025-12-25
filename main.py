@@ -59,7 +59,7 @@ need_to_upack_guess = False
 if not NEED_TO_UNPACK:
     need_to_upack_guess = (
         input(
-            "Распаковать скаченные архивы в папку с игрой(нужно предварительно указать путь в config.py)? (y/n):  "
+            "Распаковать скачанные архивы в папку с игрой(нужно предварительно указать путь в config.py)? (y/n):  "
         ).strip()
         == "y"
     )
